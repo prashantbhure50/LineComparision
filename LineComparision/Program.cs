@@ -17,6 +17,7 @@ namespace LineComparision
             double LengthOfLine = result.Check();
             double LengthOfLine1 = result1.Check();
             solution.equals(LengthOfLine, LengthOfLine1);
+            solution.CompareTo(LengthOfLine, LengthOfLine1);
 
         }
     }

@@ -27,6 +27,17 @@ namespace LineComparision
             else
                 Console.WriteLine("Lines Are Not Equals");
         }
+
+        public static  void CompareTo(double d1, double d2)
+        {
+           
+            if (d1.CompareTo(d1) == 0)
+                Console.WriteLine("Both line Are Equals");
+            else
+                Console.WriteLine("Lines Are Not Equals");
+
+        }
+      
     }
 }
 
